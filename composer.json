@@ -1,0 +1,23 @@
+{
+    "name": "dnovikov/aws-config-generator",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmytro Novikov",
+            "email": "dmytr.novikov@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.301",
+        "monolog/monolog": "^2.9",
+        "joachim-n/case-converter": "^1.0",
+        "ext-json": "*",
+        "remorhaz/php-json-path": "^0.8.1"
+    }
+}

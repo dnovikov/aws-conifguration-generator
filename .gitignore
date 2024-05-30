@@ -1,0 +1,5 @@
+.terraform*
+.idea
+*.tf
+terraform.tfstate*
+vendor
